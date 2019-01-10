@@ -1,4 +1,4 @@
-x=input('')
+x=raw_input()
 if(x>0):
 	print"positive"
 elif(x<0):
