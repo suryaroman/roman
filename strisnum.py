@@ -1,13 +1,14 @@
-roman=raw_input()
+
+dean=raw_input()
 i=0
 try:
-    float(roman)
+    float(dean)
     i+=1
     print "yes"
 except ValueError:
     pass
 if i<1:
-    if roman.isdigit():
+    if dean.isdigit():
         print "yes"
     else:
         print "No"
