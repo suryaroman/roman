@@ -1,3 +1,2 @@
-s=input()
-v=max(s)
-print(v)
+s = [int(x) for x in input().split()]
+print(max(s))
